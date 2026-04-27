@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun World | Premium Amusement & Water Park</title>
+    <meta name="description" content="Experience the thrill of India's best amusement park. Roller coasters, water slides, snow world, and more!">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <marquee class="promo-marquee" behavior="scroll" direction="left">✨ Book now for amazing offers and summer discounts! 🎡 Special packages starting at just ₹999! 🎢 Limited time only! ✨</marquee>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Fun World Logo" style="height: 50px;">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rides">Rides</a></li>
+                <li><a href="#worlds">Water Park</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Best Water and Amusement Park in Bangalore</h1>
+            <p>Unleash the joy with world-class rides and magical experiences for the whole family.</p>
+            <div class="hero-btns">
+                <button class="btn-primary" onclick="document.getElementById('rides').scrollIntoView({behavior: 'smooth'})">BUY TICKETS</button>
+                <button class="btn-secondary" onclick="document.getElementById('worlds').scrollIntoView({behavior: 'smooth'})">EXPLORE PARK</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="worlds" id="worlds">
+        <h2 class="section-title">Discover Our Four Worlds</h2>
+        <div class="worlds-grid">
+            <div class="world-card">
+                <div class="world-img">
+                    <img src="images/amusement_park.png" alt="Amusement Park">
+                </div>
+                <div class="world-info">
+                    <h3>Amusement Park</h3>
+                    <p>Thrilling rides and endless joy for all ages.</p>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="world-card">
+                <div class="world-img">
+                    <img src="images/water_park.png" alt="Water Park">
+                </div>
+                <div class="world-info">
+                    <h3>Water Park</h3>
+                    <p>Dive into excitement and cool off in style.</p>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="world-card">
+                <div class="world-img">
+                    <img src="https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?auto=format&fit=crop&q=80&w=600" alt="Snow City">
+                </div>
+                <div class="world-info">
+                    <h3>Snow City</h3>
+                    <p>Experience a magical icy wonderland all year round.</p>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="world-card">
+                <div class="world-img">
+                    <img src="images/aquarium.jpg" alt="Aquarium Paradise">
+                </div>
+                <div class="world-info">
+                    <h3>Aquarium Paradise</h3>
+                    <p>Discover the secrets of the deep blue sea.</p>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Moments of Joy</h2>
+                <p>A glimpse into the magical experiences at Fun World</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="images/gallery1.jpg" alt="Gallery Image 1"></div>
+                <div class="gallery-item"><img src="images/gallery2.jpg" alt="Gallery Image 2"></div>
+                <div class="gallery-item"><img src="images/gallery3.jpg" alt="Gallery Image 3"></div>
+                <div class="gallery-item"><img src="images/gallery4.jpg" alt="Gallery Image 4"></div>
+                <div class="gallery-item"><img src="images/gallery5.jpg" alt="Gallery Image 5"></div>
+                <div class="gallery-item"><img src="images/gallery6.jpg" alt="Gallery Image 6 (Equinox Ride)"></div>
+                <div class="gallery-item"><img src="images/gallery7.jpg" alt="Gallery Image 7 (Roller Coaster)"></div>
+                <div class="gallery-item"><img src="images/gallery8.jpg" alt="Gallery Image 8 (Water Slide)"></div>
+                <div class="gallery-item"><img src="images/gallery9.jpg" alt="Gallery Image 9 (Water Park Fun)"></div>
+                <div class="gallery-item"><img src="images/gallery10.jpg" alt="Gallery Image 10 (Aquarium and Waterfall)"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="packages-section">
+        <h2 class="section-title">Exclusive Packages</h2>
+        <div class="packages-grid">
+            <div class="package-card featured">
+                <div class="package-tag">Best Value</div>
+                <h3>Family Fun Pack</h3>
+                <div class="package-price">₹ 2,999 <span>/ 4 Persons</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Entry to All 4 Worlds</li>
+                    <li><i class="fas fa-check"></i> Unlimited Rides</li>
+                    <li><i class="fas fa-check"></i> Buffet Lunch Included</li>
+                    <li><i class="fas fa-check"></i> 4 Welcome Drinks</li>
+                </ul>
+                <button class="btn-primary" onclick="document.getElementById('rides').scrollIntoView({behavior: 'smooth'})">Get Package</button>
+            </div>
+            <div class="package-card">
+                <h3>Thrill Seeker</h3>
+                <div class="package-price">₹ 1,499 <span>/ Person</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Fast-track Entry</li>
+                    <li><i class="fas fa-check"></i> All High-Thrill Rides</li>
+                    <li><i class="fas fa-check"></i> Digital Photo Pack</li>
+                </ul>
+                <button class="btn-secondary" onclick="document.getElementById('rides').scrollIntoView({behavior: 'smooth'})">Get Package</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="rides" class="rides-section">
+        <h2 class="section-title">Rides & Attractions</h2>
+        <div id="rides-container" class="rides-grid">
+            <!-- Rides will be loaded here via JS -->
+            <div class="loading">Loading amazing rides...</div>
+        </div>
+    </section>
+
+    <section id="facilities" class="facilities">
+        <div class="facility-item">
+            <i class="fas fa-tint facility-icon"></i>
+            <p>Water Stations</p>
+        </div>
+        <div class="facility-item">
+            <i class="fas fa-money-bill-wave facility-icon"></i>
+            <p>ATMs</p>
+        </div>
+        <div class="facility-item">
+            <i class="fas fa-door-closed facility-icon"></i>
+            <p>Locker Rooms</p>
+        </div>
+        <div class="facility-item">
+            <i class="fas fa-first-aid facility-icon"></i>
+            <p>First Aid</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-contact-info" style="margin-bottom: 25px; font-size: 1.1rem; color: #f0f0f0; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+            <p style="margin: 8px 0;"><i class="fas fa-map-marker-alt" style="color: #FFD700; margin-right: 12px; width: 20px;"></i> Fun World Amusement Park, Palace Grounds, Jayamahal Main Rd, Bengaluru, Karnataka 560006</p>
+            <p style="margin: 8px 0;"><i class="fas fa-envelope" style="color: #FFD700; margin-right: 12px; width: 20px;"></i> hello@fake-fun-park-example.com &nbsp;|&nbsp; info@fake-fun-park-example.com</p>
+            <p style="margin: 8px 0;"><i class="fas fa-phone-alt" style="color: #FFD700; margin-right: 12px; width: 20px;"></i> +1 (555) 019-8472 &nbsp;|&nbsp; +1 (555) 012-3456</p>
+        </div>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; 2024 Fun World Private Ltd.</p>
+    </footer>
+
+    <div id="booking-modal" class="modal">
+        <div class="modal-content booking-layout">
+            <span class="close-btn" onclick="closeBookingModal()">&times;</span>
+            
+            <div class="booking-grid">
+                <!-- Left Side: Review -->
+                <div class="booking-review">
+                    <div class="review-header">
+                        <button class="back-btn" onclick="closeBookingModal()"><i class="fas fa-chevron-left"></i></button>
+                        <h2>REVIEW YOUR BOOKING</h2>
+                    </div>
+                    
+                    <div class="summary-card">
+                        <div class="summary-header">
+                            <span>BOOKING SUMMARY</span>
+                            <span class="location-badge"><i class="fas fa-map-marker-alt"></i> Bengaluru</span>
+                        </div>
+                        <div class="summary-details">
+                            <div>
+                                <small>Date Of Visit</small>
+                                <p id="booking-date-display">29 Apr 2026</p>
+                            </div>
+                            <div>
+                                <small>Visitors</small>
+                                <p id="booking-visitors-display"><i class="fas fa-user"></i> 1</p>
+                            </div>
+                            <div>
+                                <small>Total</small>
+                                <p id="booking-total-display">₹ 0.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="ticket-card">
+                        <div class="ticket-header">
+                            <span>TICKET SUMMARY</span>
+                            <button class="edit-link" onclick="closeBookingModal()">Add/Modify Tickets</button>
+                        </div>
+                        <div class="ticket-item">
+                            <div class="ticket-info">
+                                <h4 id="display-ride-name">Ride Name</h4>
+                                <p>(Taxes included)</p>
+                            </div>
+                            <div class="ticket-price-qty">
+                                <span id="display-ride-price">₹ 0.00</span>
+                                <div class="qty-selector">
+                                    <button type="button" onclick="changeQty(-1)">-</button>
+                                    <span id="display-qty">1</span>
+                                    <button type="button" onclick="changeQty(1)">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cost-breakdown">
+                        <div class="cost-row">
+                            <span>Convenience Fee</span>
+                            <span>₹ 50.00</span>
+                        </div>
+                        <div class="cost-row">
+                            <span>Total Applicable Taxes</span>
+                            <span id="display-taxes">₹ 0.00</span>
+                        </div>
+                        <div class="cost-row grand-total">
+                            <span>Grand Total</span>
+                            <span id="display-grand-total">₹ 0.00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Side: Billing -->
+                <div class="booking-billing">
+                    <h3>ADD YOUR BILLING INFORMATION</h3>
+                    <form id="booking-form" onsubmit="submitBooking(event)">
+                        <input type="hidden" id="booking-ride-id">
+                        <input type="hidden" id="booking-tickets" value="1">
+                        
+                        <div class="form-group-modern">
+                            <input type="text" id="userName" required placeholder="Full Name *">
+                        </div>
+                        <div class="form-group-modern">
+                            <input type="email" id="userEmail" required placeholder="Email Address *">
+                        </div>
+                        <div class="phone-input-group">
+                            <div class="country-code">
+                                <img src="https://flagcdn.com/w20/in.png" alt="India">
+                                <span>+91</span>
+                            </div>
+                            <input type="tel" id="userPhone" required placeholder="Mobile Number *">
+                        </div>
+                        <div class="form-group-modern">
+                            <input type="text" id="pinCode" placeholder="PIN Code *">
+                        </div>
+                        
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="addGST">
+                            <label for="addGST">Add GSTIN (optional)</label>
+                        </div>
+                        
+                        <div class="terms-group">
+                            <input type="checkbox" id="terms" required>
+                            <label for="terms">I agree to the <a href="#">Terms & Conditions</a></label>
+                        </div>
+                        
+                        <button type="submit" class="btn-book-now">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h3 id="modal-title">Status</h3>
+            <p id="modal-message"></p>
+            <button class="btn-primary" onclick="closeModal()" style="margin-top: 1rem; padding: 0.5rem 1.5rem;">OK</button>
+        </div>
+    </div>
+
+    <div id="ticket-modal" class="modal">
+        <div class="modal-content ticket-layout" style="max-width: 400px; padding: 0; background: #2A52BE; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+            <div style="background: #2A52BE; padding: 20px; text-align: center; position: relative;">
+                <span class="close-btn" onclick="closeTicketModal()" style="position: absolute; top: 15px; right: 20px; color: white;">&times;</span>
+                <h2 style="color: #FFD700; margin: 0; font-size: 2.2rem; font-weight: 800; text-transform: uppercase;">E-Ticket</h2>
+            </div>
+            <div style="background: white; margin: 0 15px 15px 15px; border-radius: 12px; padding: 20px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed #eee; padding-bottom: 15px; margin-bottom: 15px;">
+                    <div>
+                        <small style="color: #666; font-size: 0.8rem; display: block;">Booking ID</small>
+                        <strong id="ticket-id" style="font-size: 1.1rem; color: #333;">FW-12345</strong>
+                    </div>
+                    <div style="text-align: right;">
+                        <small style="color: #666; font-size: 0.8rem; display: block;">Date</small>
+                        <strong id="ticket-date" style="font-size: 1.1rem; color: #333;">29 Apr 2026</strong>
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <h3 id="ticket-ride-name" style="margin: 0 0 5px 0; color: #222; font-size: 1.4rem;">Ride Name</h3>
+                    <p id="ticket-user-name" style="margin: 0; color: #555;">Name</p>
+                    <p style="margin: 5px 0 0 0; font-weight: 600;"><i class="fas fa-user" style="color: #2A52BE;"></i> <span id="ticket-visitors">1</span> Visitors</p>
+                </div>
+                
+                <div style="text-align: center; margin-top: 20px;">
+                    <img id="ticket-qr" src="" alt="QR Code" style="width: 150px; height: 150px; border: 1px solid #ddd; padding: 5px; border-radius: 8px;">
+                    <p style="margin: 10px 0 0 0; color: #888; font-size: 0.85rem;">Scan at the entrance</p>
+                </div>
+            </div>
+            <div style="padding: 0 15px 15px 15px; text-align: center;">
+                 <button class="btn-primary" onclick="closeTicketModal()" style="width: 100%; padding: 12px; font-size: 1.1rem; background: #FFD700; color: #2A52BE; font-weight: 800; border-radius: 25px; border: none; cursor: pointer;">DOWNLOAD TICKET</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js?v=1.4"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+com\funworld\repository\BookingRepository.class
+com\funworld\FunWorldApplication.class
+com\funworld\controller\RideController.class
+com\funworld\model\Booking.class
+com\funworld\service\BookingService.class
+com\funworld\repository\RideRepository.class
+com\funworld\model\Ride.class
